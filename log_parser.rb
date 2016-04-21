@@ -121,13 +121,13 @@ if (countPending!=0)
 	puts "Mean: #{lp.mean(responsePending)}"
 	puts "Median: #{lp.median(responsePending)}"
 	puts "Mode: #{lp.mode(responsePending)}"
-	puts "Entry: #{examplePending}"
+	puts "Entry Example: #{examplePending}"
 	puts "Dyno that responded the most#{lp.mode(dynoPending)}with frequency #{lp.getFreq(dynoPending)[lp.mode(dynoPending)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
@@ -137,13 +137,13 @@ if (countGetMessages!=0)
 	puts "Mean: #{lp.mean(responseGetMessages)}"
 	puts "Median: #{lp.median(responseGetMessages)}"
 	puts "Mode: #{lp.mode(responseGetMessages)}"	
-	puts "Entry: #{exampleGetMessages}"
+	puts "Entry Example: #{exampleGetMessages}"
 	puts "Dyno that responded the most#{lp.mode(dynoGetMessages)}with frequency #{lp.getFreq(dynoGetMessages)[lp.mode(dynoGetMessages)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
@@ -153,13 +153,13 @@ if (countGetFriendsProgress!=0)
 	puts "Mean: #{lp.mean(responseGetFriendsProgress)}"
 	puts "Median: #{lp.median(responseGetFriendsProgress)}"
 	puts "Mode: #{lp.mode(responseGetFriendsProgress)}"	
-	puts "Entry: #{exampleGetFriendsProgress}"
+	puts "Entry Example: #{exampleGetFriendsProgress}"
 	puts "Dyno that responded the most#{lp.mode(dynoGetFriendsProgress)}with frequency #{lp.getFreq(dynoGetFriendsProgress)[lp.mode(dynoGetFriendsProgress)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
@@ -169,13 +169,13 @@ if (countGetFriendsScore!=0)
 	puts "Mean: #{lp.mean(responseGetFriendsScore)}"
 	puts "Median: #{lp.median(responseGetFriendsScore)}"
 	puts "Mode: #{lp.mode(responseGetFriendsScore)}"	
-	puts "Entry: #{exampleGetFriendsScore}"
+	puts "Entry Example: #{exampleGetFriendsScore}"
 	puts "Dyno that responded the most#{lp.mode(dynoGetFriendsScore)}with frequency #{lp.getFreq(dynoGetFriendsScore)[lp.mode(dynoGetFriendsScore)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
@@ -185,13 +185,13 @@ if (countGetUsers!=0)
 	puts "Mean: #{lp.mean(responseGetUsers)}"
 	puts "Median: #{lp.median(responseGetUsers)}"
 	puts "Mode: #{lp.mode(responseGetUsers)}"	
-	puts "Entry: #{exampleGetUsers}"
+	puts "Entry Example: #{exampleGetUsers}"
 	puts "Dyno that responded the most#{lp.mode(dynoGetUsers)}with frequency #{lp.getFreq(dynoGetUsers)[lp.mode(dynoGetUsers)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
@@ -201,13 +201,13 @@ if (countPostUsers!=0)
 	puts "Mean: #{lp.mean(responsePostUsers)}"
 	puts "Median: #{lp.median(responsePostUsers)}"
 	puts "Mode: #{lp.mode(responsePostUsers)}"	
-	puts "Entry: #{examplePostUsers}"
+	puts "Entry Example: #{examplePostUsers}"
 	puts "Dyno that responded the most#{lp.mode(dynoPostUsers)}with frequency #{lp.getFreq(dynoPostUsers)[lp.mode(dynoPostUsers)]}"
 else
 	puts "Mean: 0"
 	puts "Median: 0"
 	puts "Mode: 0"
-	puts "Entry: None"
+	puts "Entry Example: None"
 	puts "Dyno: None"
 end
 
